@@ -1,0 +1,51 @@
+html {
+    height: 100%; /* force root element to be 100% of viewport height */
+  }
+  
+  body, .container-fluid {
+    width: 100%;
+    height: inherit;
+    /* force body width and height to be 100% of viewport height */
+    
+    margin: 0;
+    /* remove default margins from body element */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* set children of body element (i.e. the div) to be laid out as a flexbox, and centered vertically and horizontally in the available space */
+
+    background-color: cornflowerblue;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+header{
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#gameContainer{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#gameResults{
+ 
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#buttons, .class{
+    text-align: center;
+}
